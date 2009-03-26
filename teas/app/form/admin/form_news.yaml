@@ -1,0 +1,75 @@
+#后台新闻表单
+~form:
+  id:news_create
+title:
+  _ui: textbox
+  _filters: "trim"
+  _label: "标题"
+  _tips: "标题超过 30 个汉字的部分将被截断"
+  _req: true
+  class: "txt medium"
+  maxlength: 100
+color:
+  _ui:textbox
+  _label:"标题颜色"
+  class:"txt small"
+  _tips:"设置标题的颜色"
+
+is_bold:
+  _ui:checkbox
+  _label:"是否加粗"
+  _tips:"设置标题是否加粗"
+  checked_by_value:true
+
+is_hot:
+  _ui: checkbox
+  _label:"是否热点"
+  checked_by_value:true
+  _tips:"设置新闻是否是热点新闻"
+recommend:
+  _ui: checkbox
+  _label:"是否推荐"
+  checked_by_value:true
+  _tips:"设置新闻是否是推荐新闻"
+content:
+  _ui: fckeditor
+  _label:"内容"
+  _tips:"新闻的内容"
+  _req: true
+  class:"txt"
+  height:"500px"
+  width:"60%"
+sort_id:
+  _ui:dropdownlist
+  _label:类别
+  class:"txt"
+
+order_num:
+  _ui: textbox
+  _label: "排序编号"
+  _tips: "数值越大排在越前面,默认值是0"
+  value: 0
+  class:"txt"
+clicks_count:
+  _ui:textbox
+  _label:"文章的点击数"
+  _tips:"点击数默认是0"
+  value:0
+  class:"txt"
+
+come:
+  _ui:textbox
+  _label:"转自网址"
+  _tips:"不能超过255子字符"
+  class:"txt"
+
+author:
+  _ui:textbox
+  _label:"作者"
+  _tips:"新闻的作者"
+  class:"txt"
+
+user_id:
+  _ui:hidden
+id:
+  _ui:hidden

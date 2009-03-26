@@ -1,0 +1,1028 @@
+2009-02-17T22:28:24+08:00 DEBUG: --- STARTUP TIME --- 1234880904.0625
+2009-02-17T22:28:24+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T22:28:24+08:00 DEBUG: session_start()
+2009-02-17T22:28:24+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T22:28:24+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T22:28:24+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T22:28:24+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T22:28:24+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T22:28:24+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T22:28:24+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`sort_id` DESC
+2009-02-17T22:28:24+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`sort_id` DESC
+2009-02-17T22:28:24+08:00 DEBUG: --- SHUTDOWN TIME --- 1234880904.2964 (0.23392581939697)sec
+2009-02-17T22:31:07+08:00 DEBUG: --- STARTUP TIME --- 1234881067.9531
+2009-02-17T22:31:07+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T22:31:08+08:00 DEBUG: session_start()
+2009-02-17T22:31:08+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T22:31:08+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T22:31:08+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T22:31:08+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T22:31:08+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T22:31:08+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T22:31:08+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T22:31:08+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T22:31:08+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T22:31:08+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:31:08+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T22:31:08+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`sort_id` DESC
+2009-02-17T22:31:08+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`   WHERE ((`os_users`.`id` = 1))
+2009-02-17T22:31:08+08:00 DEBUG: --- SHUTDOWN TIME --- 1234881068.275 (0.32187819480896)sec
+2009-02-17T22:33:41+08:00 DEBUG: --- STARTUP TIME --- 1234881221.5313
+2009-02-17T22:33:41+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T22:33:41+08:00 DEBUG: session_start()
+2009-02-17T22:33:41+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T22:33:41+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T22:33:41+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T22:33:41+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T22:33:41+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T22:33:41+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T22:33:41+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T22:33:41+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T22:33:41+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:33:41+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T22:33:41+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T22:33:41+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T22:33:41+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:33:41+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T22:33:41+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`sort_id` DESC
+2009-02-17T22:33:41+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   WHERE ((`os_news_sorts`.`id` = 2))
+2009-02-17T22:33:41+08:00 DEBUG: --- SHUTDOWN TIME --- 1234881221.8169 (0.28560996055603)sec
+2009-02-17T22:34:50+08:00 DEBUG: --- STARTUP TIME --- 1234881290.2188
+2009-02-17T22:34:50+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T22:34:50+08:00 DEBUG: session_start()
+2009-02-17T22:34:50+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T22:34:50+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T22:34:50+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T22:34:50+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T22:34:50+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T22:34:50+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T22:34:50+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T22:34:50+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T22:34:50+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:34:50+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T22:34:50+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T22:34:50+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T22:34:50+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:34:50+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T22:34:50+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-17T22:34:50+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-17T22:34:50+08:00 DEBUG: --- SHUTDOWN TIME --- 1234881290.5397 (0.32093119621277)sec
+2009-02-17T22:36:41+08:00 DEBUG: --- STARTUP TIME --- 1234881401.5156
+2009-02-17T22:36:41+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T22:36:41+08:00 DEBUG: session_start()
+2009-02-17T22:36:41+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T22:36:41+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T22:36:41+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T22:36:41+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T22:36:41+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T22:36:41+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T22:36:41+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T22:36:41+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T22:36:41+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:36:41+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T22:36:41+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T22:36:41+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T22:36:41+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:36:41+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T22:36:41+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-17T22:36:41+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-17T22:36:41+08:00 DEBUG: --- SHUTDOWN TIME --- 1234881401.8717 (0.35610580444336)sec
+2009-02-17T22:36:55+08:00 DEBUG: --- STARTUP TIME --- 1234881415.3125
+2009-02-17T22:36:55+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T22:36:55+08:00 DEBUG: session_start()
+2009-02-17T22:36:55+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T22:36:55+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T22:36:55+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T22:36:55+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T22:36:55+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T22:36:55+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T22:36:55+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T22:36:55+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T22:36:55+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:36:55+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T22:36:55+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T22:36:55+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T22:36:55+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:36:55+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T22:36:55+08:00 DEBUG: --- SHUTDOWN TIME --- 1234881415.6333 (0.32079195976257)sec
+2009-02-17T22:58:40+08:00 DEBUG: --- STARTUP TIME --- 1234882720.2969
+2009-02-17T22:58:40+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T22:58:40+08:00 DEBUG: session_start()
+2009-02-17T22:58:40+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T22:58:40+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T22:58:40+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T22:58:40+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T22:58:40+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T22:58:40+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T22:58:40+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T22:58:40+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T22:58:40+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:58:40+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T22:58:40+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T22:58:40+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T22:58:40+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:58:40+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T22:58:40+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-17T22:58:40+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-17T22:58:40+08:00 DEBUG: --- SHUTDOWN TIME --- 1234882720.5888 (0.29187417030334)sec
+2009-02-17T22:58:41+08:00 DEBUG: --- STARTUP TIME --- 1234882721.8438
+2009-02-17T22:58:41+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T22:58:41+08:00 DEBUG: session_start()
+2009-02-17T22:58:41+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T22:58:41+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T22:58:41+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T22:58:41+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T22:58:41+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T22:58:41+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T22:58:42+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:58:42+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T22:58:42+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T22:58:42+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:58:42+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T22:58:42+08:00 DEBUG: --- SHUTDOWN TIME --- 1234882722.1041 (0.26033520698547)sec
+2009-02-17T22:58:42+08:00 DEBUG: --- STARTUP TIME --- 1234882722.1406
+2009-02-17T22:58:42+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T22:58:42+08:00 DEBUG: session_start()
+2009-02-17T22:58:42+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T22:58:42+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T22:58:42+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T22:58:42+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T22:58:42+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T22:58:42+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T22:58:42+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:58:42+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T22:58:42+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T22:58:42+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T22:58:42+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T22:58:42+08:00 DEBUG: --- SHUTDOWN TIME --- 1234882722.3742 (0.23352980613708)sec
+2009-02-17T23:16:56+08:00 DEBUG: --- STARTUP TIME --- 1234883816.1875
+2009-02-17T23:16:56+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:16:56+08:00 DEBUG: session_start()
+2009-02-17T23:16:56+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T23:16:56+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T23:16:56+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T23:16:56+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:16:56+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:16:56+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T23:16:56+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:16:56+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T23:16:56+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:16:56+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:16:56+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T23:16:56+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:16:56+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:16:56+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T23:16:56+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-17T23:16:56+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-17T23:16:56+08:00 DEBUG: --- SHUTDOWN TIME --- 1234883816.5656 (0.37809920310974)sec
+2009-02-17T23:16:57+08:00 DEBUG: --- STARTUP TIME --- 1234883817.4063
+2009-02-17T23:16:57+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:16:57+08:00 DEBUG: session_start()
+2009-02-17T23:16:57+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T23:16:57+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T23:16:57+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T23:16:57+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:16:57+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:16:57+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:16:57+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:16:57+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:16:57+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:16:57+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:16:57+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T23:16:57+08:00 DEBUG: --- SHUTDOWN TIME --- 1234883817.5897 (0.18340301513672)sec
+2009-02-17T23:17:12+08:00 DEBUG: --- STARTUP TIME --- 1234883832.2188
+2009-02-17T23:17:12+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:17:12+08:00 DEBUG: session_start()
+2009-02-17T23:17:12+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T23:17:12+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T23:17:12+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T23:17:12+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:17:12+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:17:12+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T23:17:12+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:17:12+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T23:17:12+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:17:12+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:17:12+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T23:17:12+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:17:12+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:17:12+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T23:17:12+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-17T23:17:12+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-17T23:17:12+08:00 DEBUG: --- SHUTDOWN TIME --- 1234883832.4942 (0.2754487991333)sec
+2009-02-17T23:17:13+08:00 DEBUG: --- STARTUP TIME --- 1234883833.7969
+2009-02-17T23:17:13+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:17:13+08:00 DEBUG: session_start()
+2009-02-17T23:17:13+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T23:17:13+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T23:17:13+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T23:17:13+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:17:13+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:17:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:17:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:17:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:17:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:17:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:17:13+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T23:17:13+08:00 DEBUG: --- SHUTDOWN TIME --- 1234883833.9826 (0.18569779396057)sec
+2009-02-17T23:17:47+08:00 DEBUG: --- STARTUP TIME --- 1234883867.9219
+2009-02-17T23:17:47+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:17:48+08:00 DEBUG: session_start()
+2009-02-17T23:17:48+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T23:17:48+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T23:17:48+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T23:17:48+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:17:48+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:17:48+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T23:17:48+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:17:48+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T23:17:48+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:17:48+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:17:48+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T23:17:48+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:17:48+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:17:48+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T23:17:48+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-17T23:17:48+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-17T23:17:48+08:00 DEBUG: --- SHUTDOWN TIME --- 1234883868.2528 (0.33092212677002)sec
+2009-02-17T23:17:49+08:00 DEBUG: --- STARTUP TIME --- 1234883869.1875
+2009-02-17T23:17:49+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:17:49+08:00 DEBUG: session_start()
+2009-02-17T23:17:49+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T23:17:49+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T23:17:49+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T23:17:49+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:17:49+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:17:49+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:17:49+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:17:49+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:17:49+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:17:49+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:17:49+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T23:17:49+08:00 DEBUG: --- SHUTDOWN TIME --- 1234883869.4079 (0.22040891647339)sec
+2009-02-17T23:18:20+08:00 DEBUG: --- STARTUP TIME --- 1234883900.2813
+2009-02-17T23:18:20+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:18:20+08:00 DEBUG: session_start()
+2009-02-17T23:18:20+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T23:18:20+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T23:18:20+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T23:18:20+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:18:20+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:18:20+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T23:18:20+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:18:20+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T23:18:20+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:18:20+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:18:20+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T23:18:20+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:18:20+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:18:20+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T23:18:20+08:00 DEBUG: --- SHUTDOWN TIME --- 1234883900.596 (0.31470799446106)sec
+2009-02-17T23:24:56+08:00 DEBUG: --- STARTUP TIME --- 1234884296.9844
+2009-02-17T23:24:56+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:24:57+08:00 DEBUG: session_start()
+2009-02-17T23:24:57+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T23:24:57+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T23:24:57+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T23:24:57+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:24:57+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:24:57+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T23:24:57+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:24:57+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T23:24:57+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:24:57+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:24:57+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T23:24:57+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:24:57+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:24:57+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T23:24:57+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-17T23:24:57+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-17T23:24:57+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884297.2561 (0.27175402641296)sec
+2009-02-17T23:24:58+08:00 DEBUG: --- STARTUP TIME --- 1234884298.125
+2009-02-17T23:24:58+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:24:58+08:00 DEBUG: session_start()
+2009-02-17T23:24:58+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T23:24:58+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T23:24:58+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T23:24:58+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:24:58+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:24:58+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:24:58+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:24:58+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:24:58+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:24:58+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:24:58+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T23:24:58+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884298.3225 (0.1975269317627)sec
+2009-02-17T23:25:16+08:00 DEBUG: --- STARTUP TIME --- 1234884316.9063
+2009-02-17T23:25:16+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:25:17+08:00 DEBUG: session_start()
+2009-02-17T23:25:17+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-17T23:25:17+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T23:25:17+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T23:25:17+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:25:17+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:25:17+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T23:25:17+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:25:17+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T23:25:17+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:25:17+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:25:17+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T23:25:17+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:25:17+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:25:17+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T23:25:17+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884317.1819 (0.2756187915802)sec
+2009-02-17T23:28:20+08:00 DEBUG: --- STARTUP TIME --- 1234884500.8281
+2009-02-17T23:28:20+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:28:20+08:00 DEBUG: session_start()
+2009-02-17T23:28:20+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:28:20+08:00 DEBUG: REQUEST UDI: default::default/index@default
+2009-02-17T23:28:20+08:00 DEBUG: EXECUTE ACTION: Controller_Default::actionindex()
+2009-02-17T23:28:21+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884501.0071 (0.17894291877747)sec
+2009-02-17T23:28:30+08:00 DEBUG: --- STARTUP TIME --- 1234884510.8438
+2009-02-17T23:28:30+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:28:30+08:00 DEBUG: session_start()
+2009-02-17T23:28:30+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:28:30+08:00 DEBUG: REQUEST UDI: admin::default/index@default
+2009-02-17T23:28:30+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_Default::actionindex()
+2009-02-17T23:28:31+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884511.0165 (0.17279005050659)sec
+2009-02-17T23:28:31+08:00 DEBUG: --- STARTUP TIME --- 1234884510.9844
+2009-02-17T23:28:31+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:28:31+08:00 DEBUG: session_start()
+2009-02-17T23:28:31+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:28:31+08:00 DEBUG: REQUEST UDI: admin::default/index@default
+2009-02-17T23:28:31+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_Default::actionindex()
+2009-02-17T23:28:31+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884511.059 (0.074627161026001)sec
+2009-02-17T23:28:39+08:00 DEBUG: --- STARTUP TIME --- 1234884519.8125
+2009-02-17T23:28:39+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:28:39+08:00 DEBUG: session_start()
+2009-02-17T23:28:39+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:28:39+08:00 DEBUG: REQUEST UDI: admin::default/imgcode@default
+2009-02-17T23:28:39+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_Default::actionimgcode()
+2009-02-17T23:28:39+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884519.9427 (0.130215883255)sec
+2009-02-17T23:28:42+08:00 DEBUG: --- STARTUP TIME --- 1234884522.8594
+2009-02-17T23:28:42+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:28:42+08:00 DEBUG: session_start()
+2009-02-17T23:28:42+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:28:42+08:00 DEBUG: REQUEST UDI: admin::default/login@default
+2009-02-17T23:28:42+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_Default::actionlogin()
+2009-02-17T23:28:42+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:28:42+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:28:42+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T23:28:43+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:28:43+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:28:43+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`   WHERE ((`os_users`.`username` = 'admin')) LIMIT 1
+2009-02-17T23:28:43+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_roles`
+2009-02-17T23:28:43+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(users)
+2009-02-17T23:28:43+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users_has_roles`
+2009-02-17T23:28:43+08:00 DEBUG: [DB EXECUTE] SELECT `os_roles`.*   FROM `tea_db`.`os_roles`  INNER JOIN `tea_db`.`os_users_has_roles`  `m`   ON (`m`.`user_id` = '1')   WHERE ((`os_roles`.`id` = `m`.`role_id`))
+2009-02-17T23:28:43+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884523.1219 (0.26251578330994)sec
+2009-02-17T23:28:43+08:00 DEBUG: --- STARTUP TIME --- 1234884523.1406
+2009-02-17T23:28:43+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:28:43+08:00 DEBUG: session_start()
+2009-02-17T23:28:43+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:28:43+08:00 DEBUG: REQUEST UDI: admin::default/home@default
+2009-02-17T23:28:43+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_Default::actionhome()
+2009-02-17T23:28:43+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884523.1983 (0.057637929916382)sec
+2009-02-17T23:28:43+08:00 DEBUG: --- STARTUP TIME --- 1234884523.375
+2009-02-17T23:28:43+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:28:43+08:00 DEBUG: session_start()
+2009-02-17T23:28:43+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:28:43+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T23:28:43+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T23:28:43+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:28:43+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:28:43+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T23:28:43+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:28:43+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T23:28:43+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:28:43+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:28:43+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:28:43+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:28:43+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T23:28:43+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-17T23:28:43+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-17T23:28:43+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884523.5757 (0.20071601867676)sec
+2009-02-17T23:28:45+08:00 DEBUG: --- STARTUP TIME --- 1234884525.0469
+2009-02-17T23:28:45+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:28:45+08:00 DEBUG: session_start()
+2009-02-17T23:28:45+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:28:45+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T23:28:45+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T23:28:45+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:28:45+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:28:45+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:28:45+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:28:45+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:28:45+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:28:45+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:28:45+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T23:28:45+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884525.2637 (0.21678400039673)sec
+2009-02-17T23:29:44+08:00 DEBUG: --- STARTUP TIME --- 1234884584.6094
+2009-02-17T23:29:44+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:29:45+08:00 DEBUG: session_start()
+2009-02-17T23:29:45+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:29:45+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T23:29:45+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T23:30:01+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:30:01+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:30:01+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T23:30:01+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:30:01+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T23:30:01+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:30:01+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:30:01+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T23:30:02+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:30:02+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:30:02+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T23:33:16+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884795.3022 (210.69281601906)sec
+2009-02-17T23:33:27+08:00 DEBUG: --- STARTUP TIME --- 1234884807.3438
+2009-02-17T23:33:27+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:33:27+08:00 DEBUG: session_start()
+2009-02-17T23:33:27+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:33:27+08:00 DEBUG: REQUEST UDI: admin::default/home@default
+2009-02-17T23:33:27+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_Default::actionhome()
+2009-02-17T23:33:27+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884807.4434 (0.09961199760437)sec
+2009-02-17T23:33:27+08:00 DEBUG: --- STARTUP TIME --- 1234884807.5469
+2009-02-17T23:33:27+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:33:27+08:00 DEBUG: session_start()
+2009-02-17T23:33:27+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:33:27+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T23:33:27+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T23:33:27+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:33:27+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:33:27+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T23:33:27+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:33:27+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T23:33:27+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:33:27+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:33:27+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T23:33:27+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:33:27+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:33:27+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T23:33:27+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-17T23:33:27+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-17T23:33:27+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884807.8108 (0.26393699645996)sec
+2009-02-17T23:33:29+08:00 DEBUG: --- STARTUP TIME --- 1234884809.8281
+2009-02-17T23:33:29+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:33:29+08:00 DEBUG: session_start()
+2009-02-17T23:33:29+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:33:29+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T23:33:29+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T23:33:29+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:33:29+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:33:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:33:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:33:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:33:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:33:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:33:29+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T23:33:30+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884810.0285 (0.2003800868988)sec
+2009-02-17T23:33:50+08:00 DEBUG: --- STARTUP TIME --- 1234884830.9375
+2009-02-17T23:33:50+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:33:51+08:00 DEBUG: session_start()
+2009-02-17T23:33:51+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:33:51+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T23:33:51+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T23:33:56+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:33:56+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:33:56+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T23:33:56+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:33:56+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T23:33:56+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:33:56+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:33:56+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T23:33:56+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:33:56+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:33:56+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T23:34:28+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884867.4575 (36.51997590065)sec
+2009-02-17T23:35:22+08:00 DEBUG: --- STARTUP TIME --- 1234884922.4219
+2009-02-17T23:35:22+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:35:22+08:00 DEBUG: session_start()
+2009-02-17T23:35:22+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:35:22+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T23:35:22+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T23:35:22+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:35:22+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:35:22+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T23:35:22+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:35:22+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T23:35:22+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:35:22+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:35:22+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T23:35:22+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:35:22+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:35:22+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T23:35:22+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-17T23:35:22+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-17T23:35:22+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884922.6834 (0.26152110099792)sec
+2009-02-17T23:35:23+08:00 DEBUG: --- STARTUP TIME --- 1234884923.7969
+2009-02-17T23:35:23+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:35:23+08:00 DEBUG: session_start()
+2009-02-17T23:35:23+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:35:23+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-17T23:35:23+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-17T23:35:23+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:35:23+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:35:23+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:35:23+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:35:23+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:35:23+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:35:23+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:35:23+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-17T23:35:24+08:00 DEBUG: --- SHUTDOWN TIME --- 1234884924.0066 (0.20977091789246)sec
+2009-02-17T23:42:19+08:00 DEBUG: --- STARTUP TIME --- 1234885339.9531
+2009-02-17T23:42:19+08:00 DEBUG: MyApp::_initConfig
+2009-02-17T23:42:20+08:00 DEBUG: session_start()
+2009-02-17T23:42:20+08:00 DEBUG: session_id: vhg121c5lnjk67i0vvprothas5
+2009-02-17T23:42:20+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-17T23:42:20+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-17T23:42:20+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-17T23:42:20+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-17T23:42:20+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-17T23:42:20+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-17T23:42:20+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-17T23:42:20+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:42:20+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-17T23:42:20+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-17T23:42:20+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-17T23:42:20+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-17T23:42:20+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-17T23:42:20+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-17T23:42:20+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-17T23:42:20+08:00 DEBUG: --- SHUTDOWN TIME --- 1234885340.2306 (0.27747988700867)sec
+2009-02-18T00:12:27+08:00 DEBUG: --- STARTUP TIME --- 1234887147.25
+2009-02-18T00:12:27+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:12:27+08:00 DEBUG: session_start()
+2009-02-18T00:12:27+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:12:27+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:12:27+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:12:27+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:12:27+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:12:27+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:12:27+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:12:27+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:12:27+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:12:27+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:12:27+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:12:27+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:12:27+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:12:27+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:12:27+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:12:27+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:12:27+08:00 DEBUG: --- SHUTDOWN TIME --- 1234887147.5755 (0.32546615600586)sec
+2009-02-18T00:12:28+08:00 DEBUG: --- STARTUP TIME --- 1234887148.8906
+2009-02-18T00:12:28+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:12:28+08:00 DEBUG: session_start()
+2009-02-18T00:12:28+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:12:28+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:12:28+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:12:29+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:12:29+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:12:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:12:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:12:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:12:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:12:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:12:29+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:12:29+08:00 DEBUG: --- SHUTDOWN TIME --- 1234887149.1118 (0.22117400169373)sec
+2009-02-18T00:26:34+08:00 DEBUG: --- STARTUP TIME --- 1234887994.4688
+2009-02-18T00:26:34+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:26:34+08:00 DEBUG: session_start()
+2009-02-18T00:26:34+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:26:34+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:26:34+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:26:34+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:26:34+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:26:34+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:26:34+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:26:34+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:26:34+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:26:34+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:26:34+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:26:34+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:26:34+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:26:34+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:26:34+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:26:34+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:26:34+08:00 DEBUG: --- SHUTDOWN TIME --- 1234887994.8148 (0.34606099128723)sec
+2009-02-18T00:26:35+08:00 DEBUG: --- STARTUP TIME --- 1234887995.7656
+2009-02-18T00:26:35+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:26:35+08:00 DEBUG: session_start()
+2009-02-18T00:26:35+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:26:35+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:26:35+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:26:35+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:26:35+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:26:35+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:26:35+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:26:35+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:26:35+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:26:35+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:26:35+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:26:35+08:00 DEBUG: --- SHUTDOWN TIME --- 1234887995.9607 (0.19505882263184)sec
+2009-02-18T00:26:51+08:00 DEBUG: --- STARTUP TIME --- 1234888011.6406
+2009-02-18T00:26:51+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:26:51+08:00 DEBUG: session_start()
+2009-02-18T00:26:51+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:26:51+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:26:51+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:26:51+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:26:51+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:26:51+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:26:51+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:26:51+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:26:51+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:26:51+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:26:51+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:26:51+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:26:51+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:26:51+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:26:51+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:26:51+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:26:51+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888011.9505 (0.30983781814575)sec
+2009-02-18T00:26:52+08:00 DEBUG: --- STARTUP TIME --- 1234888012.8906
+2009-02-18T00:26:52+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:26:52+08:00 DEBUG: session_start()
+2009-02-18T00:26:52+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:26:52+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:26:52+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:26:53+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:26:53+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:26:53+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:26:53+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:26:53+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:26:53+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:26:53+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:26:53+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:26:53+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888013.127 (0.23635196685791)sec
+2009-02-18T00:30:59+08:00 DEBUG: --- STARTUP TIME --- 1234888259.3594
+2009-02-18T00:30:59+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:30:59+08:00 DEBUG: session_start()
+2009-02-18T00:30:59+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:30:59+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:30:59+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:30:59+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:30:59+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:30:59+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:30:59+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:30:59+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:30:59+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:30:59+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:30:59+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:30:59+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:30:59+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:30:59+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:30:59+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:30:59+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:30:59+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888259.629 (0.2696328163147)sec
+2009-02-18T00:31:00+08:00 DEBUG: --- STARTUP TIME --- 1234888260.5313
+2009-02-18T00:31:00+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:31:00+08:00 DEBUG: session_start()
+2009-02-18T00:31:00+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:31:00+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:31:00+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:31:00+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:31:00+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:31:00+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:31:00+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:31:00+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:31:00+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:31:00+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:31:00+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:31:00+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888260.7272 (0.19598579406738)sec
+2009-02-18T00:31:13+08:00 DEBUG: --- STARTUP TIME --- 1234888273.3906
+2009-02-18T00:31:13+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:31:13+08:00 DEBUG: session_start()
+2009-02-18T00:31:13+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:31:13+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:31:13+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:31:13+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:31:13+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:31:13+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:31:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:31:13+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:31:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:31:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:31:13+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:31:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:31:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:31:13+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:31:13+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:31:13+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:31:13+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888273.6335 (0.24286198616028)sec
+2009-02-18T00:31:15+08:00 DEBUG: --- STARTUP TIME --- 1234888275.1094
+2009-02-18T00:31:15+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:31:15+08:00 DEBUG: session_start()
+2009-02-18T00:31:15+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:31:15+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:31:15+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:31:15+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:31:15+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:31:15+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:31:15+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:31:15+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:31:15+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:31:15+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:31:15+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:31:15+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888275.2966 (0.18719887733459)sec
+2009-02-18T00:32:11+08:00 DEBUG: --- STARTUP TIME --- 1234888331
+2009-02-18T00:32:11+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:32:11+08:00 DEBUG: session_start()
+2009-02-18T00:32:11+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:32:11+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:32:11+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:32:11+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:32:11+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:32:11+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:32:11+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:32:11+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:32:11+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:32:11+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:32:11+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:32:11+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:32:11+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:32:11+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:32:11+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:32:11+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:32:11+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888331.2432 (0.24321913719177)sec
+2009-02-18T00:32:12+08:00 DEBUG: --- STARTUP TIME --- 1234888332.3594
+2009-02-18T00:32:12+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:32:12+08:00 DEBUG: session_start()
+2009-02-18T00:32:12+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:32:12+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:32:12+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:32:12+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:32:12+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:32:12+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:32:12+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:32:12+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:32:12+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:32:12+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:32:12+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:32:12+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888332.5458 (0.18646597862244)sec
+2009-02-18T00:36:01+08:00 DEBUG: --- STARTUP TIME --- 1234888561.6563
+2009-02-18T00:36:01+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:36:01+08:00 DEBUG: session_start()
+2009-02-18T00:36:01+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:36:01+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:36:01+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:36:01+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:36:01+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:36:01+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:36:01+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:36:01+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:36:01+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:36:01+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:36:01+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:36:01+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:36:01+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:36:01+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:36:01+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:36:01+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:36:01+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888561.9514 (0.29510998725891)sec
+2009-02-18T00:36:02+08:00 DEBUG: --- STARTUP TIME --- 1234888562.7656
+2009-02-18T00:36:02+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:36:02+08:00 DEBUG: session_start()
+2009-02-18T00:36:02+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:36:02+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:36:02+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:36:02+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:36:02+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:36:02+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:36:02+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:36:02+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:36:02+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:36:02+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:36:02+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:36:02+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888562.9573 (0.1916241645813)sec
+2009-02-18T00:37:36+08:00 DEBUG: --- STARTUP TIME --- 1234888656.2813
+2009-02-18T00:37:36+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:37:36+08:00 DEBUG: session_start()
+2009-02-18T00:37:36+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:37:36+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:37:36+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:37:36+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:37:36+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:37:36+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:37:36+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:37:36+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:37:36+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:37:36+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:37:36+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:37:36+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:37:36+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:37:36+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:37:36+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:37:36+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:37:36+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888656.569 (0.2877950668335)sec
+2009-02-18T00:37:37+08:00 DEBUG: --- STARTUP TIME --- 1234888657.2969
+2009-02-18T00:37:37+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:37:37+08:00 DEBUG: session_start()
+2009-02-18T00:37:37+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:37:37+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:37:37+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:37:37+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:37:37+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:37:37+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:37:37+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:37:37+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:37:37+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:37:37+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:37:37+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:37:37+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888657.5342 (0.23728680610657)sec
+2009-02-18T00:38:13+08:00 DEBUG: --- STARTUP TIME --- 1234888693.2969
+2009-02-18T00:38:13+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:38:13+08:00 DEBUG: session_start()
+2009-02-18T00:38:13+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:38:13+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:38:13+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:38:13+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:38:13+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:38:13+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:38:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:38:13+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:38:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:38:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:38:13+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:38:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:38:13+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:38:13+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:38:13+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:38:13+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:38:13+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888693.5657 (0.26879501342773)sec
+2009-02-18T00:38:15+08:00 DEBUG: --- STARTUP TIME --- 1234888695.1094
+2009-02-18T00:38:15+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:38:15+08:00 DEBUG: session_start()
+2009-02-18T00:38:15+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:38:15+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:38:15+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:38:15+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:38:15+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:38:15+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:38:15+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:38:15+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:38:15+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:38:15+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:38:15+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:38:15+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888695.3144 (0.20506000518799)sec
+2009-02-18T00:40:53+08:00 DEBUG: --- STARTUP TIME --- 1234888852.9844
+2009-02-18T00:40:53+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:40:53+08:00 DEBUG: session_start()
+2009-02-18T00:40:53+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:40:53+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:40:53+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:40:53+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:40:53+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:40:53+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:40:53+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:40:53+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:40:53+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:40:53+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:40:53+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:40:53+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:40:53+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:40:53+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:40:53+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:40:53+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:40:53+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888853.2751 (0.29070901870728)sec
+2009-02-18T00:41:31+08:00 DEBUG: --- STARTUP TIME --- 1234888891.4844
+2009-02-18T00:41:31+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:41:31+08:00 DEBUG: session_start()
+2009-02-18T00:41:31+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:41:31+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:41:31+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:41:31+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:41:31+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:41:31+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:41:31+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:41:31+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:41:31+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:41:31+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:41:31+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:41:31+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:41:31+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:41:31+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:41:31+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:41:31+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:41:31+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888891.7821 (0.29776883125305)sec
+2009-02-18T00:42:24+08:00 DEBUG: --- STARTUP TIME --- 1234888944.1406
+2009-02-18T00:42:24+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:42:24+08:00 DEBUG: session_start()
+2009-02-18T00:42:24+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:42:24+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:42:24+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:42:24+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:42:24+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:42:24+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:42:24+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:42:24+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:42:24+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:42:24+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:42:24+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:42:24+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:42:24+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:42:24+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:42:24+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:42:24+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:42:24+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888944.4337 (0.29307079315186)sec
+2009-02-18T00:42:25+08:00 DEBUG: --- STARTUP TIME --- 1234888945.1094
+2009-02-18T00:42:25+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:42:25+08:00 DEBUG: session_start()
+2009-02-18T00:42:25+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:42:25+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:42:25+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:42:25+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:42:25+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:42:25+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:42:25+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:42:25+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:42:25+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:42:25+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:42:25+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:42:25+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888945.3243 (0.21495389938354)sec
+2009-02-18T00:43:01+08:00 DEBUG: --- STARTUP TIME --- 1234888981.8281
+2009-02-18T00:43:01+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:43:01+08:00 DEBUG: session_start()
+2009-02-18T00:43:01+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:43:01+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:43:01+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:43:02+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:43:02+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:43:02+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:43:02+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:43:02+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:43:02+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:43:02+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:43:02+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:43:02+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:43:02+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:43:02+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:43:02+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888982.1236 (0.29551100730896)sec
+2009-02-18T00:43:06+08:00 DEBUG: --- STARTUP TIME --- 1234888986.7813
+2009-02-18T00:43:06+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:43:06+08:00 DEBUG: session_start()
+2009-02-18T00:43:06+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:43:06+08:00 DEBUG: REQUEST UDI: admin::news/index@default
+2009-02-18T00:43:06+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actionindex()
+2009-02-18T00:43:06+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:43:06+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:43:06+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:43:06+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:43:06+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:43:06+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:43:06+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:43:06+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   ORDER BY `os_news`.`order_num` DESC
+2009-02-18T00:43:06+08:00 DEBUG: [DB EXECUTE] SELECT `os_users`.*   FROM `tea_db`.`os_users`
+2009-02-18T00:43:06+08:00 DEBUG: [DB EXECUTE] SELECT `os_news`.*   FROM `tea_db`.`os_news`   WHERE ((`os_news`.`user_id` = '1'))
+2009-02-18T00:43:06+08:00 DEBUG: --- SHUTDOWN TIME --- 1234888986.9286 (0.14732313156128)sec
+2009-02-18T00:43:28+08:00 DEBUG: --- STARTUP TIME --- 1234889008.9688
+2009-02-18T00:43:28+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:43:29+08:00 DEBUG: session_start()
+2009-02-18T00:43:29+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:43:29+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:43:29+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:43:29+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:43:29+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:43:29+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:43:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:43:29+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:43:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:43:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:43:29+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:43:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:43:29+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:43:29+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:43:29+08:00 DEBUG: --- SHUTDOWN TIME --- 1234889009.3058 (0.33709478378296)sec
+2009-02-18T00:43:31+08:00 DEBUG: --- STARTUP TIME --- 1234889011.9219
+2009-02-18T00:43:31+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:43:31+08:00 DEBUG: session_start()
+2009-02-18T00:43:31+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:43:31+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:43:31+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:43:32+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:43:32+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:43:32+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:43:32+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:43:32+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:43:32+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:43:32+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:43:32+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:43:32+08:00 DEBUG: --- SHUTDOWN TIME --- 1234889012.1363 (0.21443486213684)sec
+2009-02-18T00:44:23+08:00 DEBUG: --- STARTUP TIME --- 1234889063.1875
+2009-02-18T00:44:23+08:00 DEBUG: MyApp::_initConfig
+2009-02-18T00:44:23+08:00 DEBUG: session_start()
+2009-02-18T00:44:23+08:00 DEBUG: session_id: 53lhlculvh4mfth0i9vv1aaks6
+2009-02-18T00:44:23+08:00 DEBUG: REQUEST UDI: admin::news/create@default
+2009-02-18T00:44:23+08:00 DEBUG: EXECUTE ACTION: Controller_Admin_News::actioncreate()
+2009-02-18T00:44:23+08:00 DEBUG: [DB EXECUTE] USE `tea_db`
+2009-02-18T00:44:23+08:00 DEBUG: [DB EXECUTE] SET NAMES 'utf8'
+2009-02-18T00:44:23+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news`
+2009-02-18T00:44:23+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(newsort)
+2009-02-18T00:44:23+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_news_sorts`
+2009-02-18T00:44:23+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:44:23+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(owner)
+2009-02-18T00:44:23+08:00 DEBUG: [DB EXECUTE] SHOW FULL COLUMNS FROM `tea_db`.`os_users`
+2009-02-18T00:44:23+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(roles)
+2009-02-18T00:44:23+08:00 DEBUG: QDB_ActiveRecord_Association_Abstract::__construct(news)
+2009-02-18T00:44:23+08:00 DEBUG: [DB EXECUTE] SELECT `os_news_sorts`.*   FROM `tea_db`.`os_news_sorts`   ORDER BY `os_news_sorts`.`name` ASC
+2009-02-18T00:44:23+08:00 DEBUG: --- SHUTDOWN TIME --- 1234889063.5224 (0.33492588996887)sec

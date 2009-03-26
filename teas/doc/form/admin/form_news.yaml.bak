@@ -1,0 +1,48 @@
+#后台新闻表单
+~form:
+  id:news_create
+newtitle:
+  _group: true
+  _elements:
+    title:
+      _ui: textbox
+      _filters: "trim"
+      _label: "标题"
+      _tips: "标题超过 30 个汉字的部分将被截断"
+      _req: true
+      class: "txt medium"
+      maxlength: 100
+    color:
+      _ui:textbox
+      _label:"标题颜色"
+      class:"text small"
+      _tips:"设置标题的颜色"
+    is_bold:
+      _ui:checkbox
+      _label:"是否加粗"
+      _tips:"设置标题是否加粗"
+      value:1
+newbody:
+  _group:true
+  _elements:
+    is_hot:
+      _ui: checkbox
+      _label:"是否热点"
+      value:1
+    recommend:
+      _ui: checkbox
+      _label:"是否推荐"
+      value:1
+    sort_id:
+      _ui:dropdownlist
+      _label:类别
+    come:
+      _ui:textbox
+      _label:"转自网址"
+    author:
+      _ui:textbox
+      _label:"作者"
+    user_id:
+      _ui:hidden
+id:
+  _ui:hidden

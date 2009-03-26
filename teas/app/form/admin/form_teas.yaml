@@ -1,0 +1,72 @@
+#后台管理 茶叶的表单
+id:
+  _ui:hidden
+name:
+  _ui: textbox
+  _filters: "trim"
+  _label: "茶叶名"
+  _tips: "茶叶名不能超过64个字符"
+  _req: true
+  class: "txt"
+  maxlength: 100
+
+price:
+  _ui: textbox
+  _label:"价格"
+  class:"txt small"
+  value:"0"
+  class:"txt small"
+tea_locality:
+  _ui: textbox
+  _label: "茶叶的产地"
+  class: "txt medium"
+fake_code:
+  _ui:textbox
+  _label:"防伪码"
+  class:"txt"
+
+
+introduce:
+  _ui:memo
+  _label:"产品介绍"
+  class:"txt medium"
+rate:
+  _ui: textbox
+  _label:"产品等级"
+  class:"txt small"
+pack_type:
+  _ui: textbox
+  _label:"包专类型"
+  class:"txt"
+recommend:
+  _ui: checkbox
+  _label: "是否推荐"
+  checked_by_value:true
+is_hot:
+  _ui:checkbox
+  _label:"是否热点"
+  checked_by_value:true
+is_show:
+  _ui:checkbox
+  _label:"是否上架"
+  checked_by_value:true
+
+type_id:
+  _ui:admin_typelist
+  _label:"茶叶类别"
+
+order_num:
+  _ui: textbox
+  _label:"排序号"
+  class:"txt"
+
+thumb_filename:
+  _ui: admin_picpreview
+  _label:"已上传图片"
+  _tips:"上传新图片会覆盖已有的图片"
+  dir:"upload"
+postfile:
+  _ui: upload
+  _label: "题图"
+  _tips: "上传图片允许的格式为 %s，并且文件大小不能超过 %u KB。上传图片的大小接近 %s 像素最为理想"
+  class: "txt medium"

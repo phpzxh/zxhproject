@@ -1,0 +1,14 @@
+/**增加的样式 **/
+label {
+  font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	
+	width:90px;
+	float:left;
+}
+fieldset{
+	padding:10px;
+}
+p { padding:4px; margin:2px;}
+	

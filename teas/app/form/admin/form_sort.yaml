@@ -1,0 +1,12 @@
+#新闻类别表单
+
+id:
+  _ui:hidden
+name:
+  _ui:textbox
+  _label:新闻栏目名称
+  _tips:"栏目名称不能超过 40 个字符"
+  _req: true
+  class: "txt medium"
+parent_id:
+  _ui:hidden

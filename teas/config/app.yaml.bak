@@ -1,0 +1,118 @@
+# <?php die(); ?>
+
+## 注意：书写时，缩进不能使用 Tab，必须使用空格
+
+#############################
+# 应用程序设置
+#############################
+
+# 在这里添加应用程序需要的设置
+# 这里的设置可以用 Q::ini('appini/设置名') 来读取，例如 Q::ini('appini/app_title');
+
+#### 后台设置
+
+# 后台管理菜单标签
+admin_tabs:
+  业界动态:
+    -
+      title: "所有新闻"
+      udi: "admin::news/index"
+    -
+      title: "新闻栏目管理"
+      udi: "admin::newsort/index"
+  #
+  茶叶管理:
+    -
+      title: "茶叶列表"
+      udi: "admin::tea/index"
+   
+    -
+      title:"茶叶类别管理"
+      udi:"admin::teatype/index"
+  #
+  茶于文化:
+    -
+      title: "所有文章"
+      udi: "admin::article/index"
+    -
+      title: "文章栏目管理"
+      udi: "admin::articlesort/index"
+  #
+  解决方案:
+    -
+      title:"编辑解决方案"
+      udi:"admin::solutions/index"
+  #
+  全局:
+    -
+      title: "友情链接"
+      udi: "admin::links/index"
+    -
+      title: "广告管理"
+      udi: "admin::blackwords/index"
+# 茶叶图片上传的设置
+teapics:
+  upload_allowed_types: "jpeg, jpg, png, gif"
+  upload_allowed_size:  800
+  upload_dir: "%ROOT_DIR%/public/upload"
+  img_dir: "upload"
+  img_pic_width: 300 
+  img_pic_height: 250
+  thumb_pic_width: 160
+  thumb_pic_height: 120
+
+ #后台管理子菜单 
+admin_sub_menus:
+  所有新闻:
+    -
+      title: "所有新闻"
+      udi: "admin::news/index"
+    -
+      title: "添加新闻"
+      udi: "admin::news/create"
+  新闻栏目管理:
+    -
+      title:"新闻栏目管理"
+      udi:"admin::newsort/index"
+    -
+      title:"添加栏目"
+      udi:"admin::newsort/create"
+  所有文章:
+    -
+      title:"所有文章"
+      udi: "admin::article/index"
+    -
+      title:"添加文章"
+      udi: "admin::article/create"
+  文章栏目管理:
+    -
+      title:"文章栏目管理"
+      udi:"admin::articlesort/index"
+    -
+      title:"增加栏目"
+      udi: "admin::articlesort/create"
+  茶叶栏目管理:
+    -
+      title:"茶叶栏目管理"
+      udi:"admin::teatype/index"
+    -
+      title:"增加栏目"
+      udi:"admin::teatype/create"
+  茶叶列表:
+    -
+      title: "茶叶列表"
+      udi: "admin::tea/index"
+  友情链接列表:
+    -
+      title: "友情链接列表"
+      udi: "admin::links/index"
+    -
+      title: "添加友情链接"
+      udi: "admin::links/create"
+  解决方案列表:
+    -
+      title:"解决方案列表"
+      udi:  "admin::solutions/index"
+    -
+      title:"添加解决方案"
+      udi:"admin::solutions/create"
