@@ -1,0 +1,7 @@
+<?php get_header(); ?>
+	<div id="content" class="post">
+		<div class="title"><h2>404错误,没有找到你要的文章</h2></div>
+		<p>您可以在右侧搜索栏再搜一下</p>
+	</div>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
