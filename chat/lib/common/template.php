@@ -34,7 +34,7 @@ class CTemplate
 	{
 		if(!is_array($conifg)) return ;
 
-		$keys =  array('path','enableCache','cacheLiftTime','cacheDir');
+		$keys =  array('path','enableCache','cacheLifeTime','cacheDir');
 
 		foreach ($keys as $key) {
 			if (!empty($conifg[$key])) {
@@ -122,6 +122,7 @@ class CTemplate
 		//检查文件是否过期
 		$mtime = filemtime($fileName);
 		if($mtime == false) return false;
+		
 
 		if(($mtime + $this->cacheLifeTime) < time()){
 			$this->cacheStatus[$fileName] = false;
@@ -149,7 +150,7 @@ class CTemplate
 	**/
 	protected function _removeCache($fileName)
 	{
-		@unlink($fileName);
+		unlink($fileName);
 	}
 
 	/**
@@ -159,7 +160,7 @@ class CTemplate
 	public function removeAllCache()
 	{
 		foreach(glob($this->cacheDir . DIRECTORY_SEPARATOR . '*.php') as $fileName) {
-            @unlink($fileName);
+            unlink($fileName);
 		}
 	}
 
