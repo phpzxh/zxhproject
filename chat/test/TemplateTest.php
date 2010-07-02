@@ -12,8 +12,11 @@ class TemplateTest extends PHPunit_Framework_TestCase
 	public function setup()
 	{
 		$config = array(
-			             'path'=>ROOTPATH.'/lib/view',
-			             'cacheDir'=>ROOTPATH.'/cache',
+			             'path' => ROOTPATH.'/lib/view',
+			             'cacheDir' => ROOTPATH.'/cache',
+			             'enableCache' => true,
+			             'cacheLifeTime' =>10, 
+
 			           );
 		$this->tpl = new CTemplate($config);
 	}
@@ -39,6 +42,32 @@ class TemplateTest extends PHPunit_Framework_TestCase
 
 
 	}
+
+	function testCache()
+	{
+
+		$news = array( 0=> array('name'=>'周晓','email'=>'jxxgzxh@11.com','age'=>24),
+			           1=>array('name'=>'abc','email'=>'jxxgzxh@11.com','age'=>24),
+			           2=>array('name'=>'abc','email'=>'jxxgzxh@11.com','age'=>24),
+			  );
+
+		$this->tpl->assign('person',$news);
+	
+	   
+		
+		$this->tpl->assign('title','userlist');
+		
+		$this->tpl->display('test',1); 
+		
+	}
+	
+	function testFetch()
+	{
+		//生成缓存
+
+	}
+
+	
 
 	function testDisplay()
 	{
