@@ -31,6 +31,9 @@ $GLOBALS['db']['user'] = 'test';
 $GLOBALS['db']['dbName'] = 'test';
 $GLOBALS['db']['password'] = '';
 
+global $config;
+
+
 
 
 

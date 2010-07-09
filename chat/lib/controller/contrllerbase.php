@@ -3,6 +3,10 @@
 abstract class BaseController
 {
 
+	protected $view;
+
+	
+
 	function __construct($act)
 	{
 		if(!empty($act) && !method_exists($this, $act) || empty($act)) {
@@ -20,7 +24,7 @@ abstract class BaseController
 	  @return void 
 	**/
 
-	public function redirectUrl($url)
+	public static function redirectUrl($url)
 	{
 		$url = strtr(trim($url), array('\r'=>'', '\n'=>''));
 		header('location:'.$url, true);
@@ -32,7 +36,7 @@ abstract class BaseController
 	 @param $action   方法
 	 @return $string 合法的url
 	**/
-	public function url($controller, $action, $args=array())
+	public static function url($controller, $action, $args=array())
 	{
 
 		if(!isset($controller)) return ;

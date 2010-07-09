@@ -15,7 +15,7 @@ class TemplateTest extends PHPunit_Framework_TestCase
 			             'path' => ROOTPATH.'/lib/view',
 			             'cacheDir' => ROOTPATH.'/cache',
 			             'enableCache' => true,
-			             'cacheLifeTime' =>10, 
+			             'cacheLifeTime' =>1, 
 
 			           );
 		$this->tpl = new CTemplate($config);
@@ -58,6 +58,8 @@ class TemplateTest extends PHPunit_Framework_TestCase
 		$this->tpl->assign('title','userlist');
 		
 		$this->tpl->display('test',1); 
+
+		print_r($this->tpl);
 		
 	}
 	
@@ -71,7 +73,7 @@ class TemplateTest extends PHPunit_Framework_TestCase
 
 	function testDisplay()
 	{
-		$news = array( 0 => array('name'=>'phpzxh','email'=>'jxxgzxh@11.com','age'=>24),
+		/*$news = array( 0 => array('name'=>'phpzxh','email'=>'jxxgzxh@11.com','age'=>24),
 			           1=>array('name'=>'phpzxh','email'=>'jxxgzxh@11.com','age'=>24),
 			           2=>array('name'=>'phpzxh','email'=>'jxxgzxh@11.com','age'=>24),
 			  );
@@ -82,7 +84,7 @@ class TemplateTest extends PHPunit_Framework_TestCase
 		
 		$this->tpl->assign('title','userlist');
 		
-		$this->tpl->display('test');
+		$this->tpl->display('test'); */
 	}
 
 

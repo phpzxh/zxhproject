@@ -15,6 +15,11 @@ class DefaultController extends BaseController
 		
         echo 'indexAction';
 		
+	//	$this->replayAction();
+	   
+	   $url = $this->url('chat');
+
+	   $this->redirectUrl($url);
 
 	}
 
@@ -30,6 +35,13 @@ class DefaultController extends BaseController
 		$this->redirectUrl($url);
 
  
+	}
+
+	public function selectAction()
+	{
+		$args = $_REQUEST;
+
+		print_r($args);
 	}
       
 }
