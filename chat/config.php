@@ -21,7 +21,7 @@ define('ROOTPATH', dirname(__FILE__));
 
 define('SITEURL', PROTOCOL.'://'.$_SERVER['HTTP_HOST'].'/chat');
 
-
+define('PROJECT','chat');
 define("CHAT_NOTE", "./chat.txt");
 define("ONLINE_LIST", "./online.txt");
 
